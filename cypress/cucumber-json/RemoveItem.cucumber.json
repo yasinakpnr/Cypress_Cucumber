@@ -1,0 +1,468 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Remove a product from the cart",
+    "line": 2,
+    "id": "remove-a-product-from-the-cart",
+    "tags": [],
+    "uri": "RemoveItem.feature",
+    "elements": [
+      {
+        "id": "remove-a-product-from-the-cart;verify-that-the-user-should-be-able-to-remove-an-item-by-clicking-delete-icon",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify that the user should be able to remove an item by clicking delete icon",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the home page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user accepts the cookies",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "tab",
+                      "module"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "For Babys",
+                      "Clutching toys"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user navigates to the page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user add a product \"306203\" to the cart",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user clicks chart icon at the top of the right corner",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user click remove item icon",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "verify that item has been removed and the system displayed \"Product has been removed from your cart.\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "remove-a-product-from-the-cart;verify-that-the-user-should-be-able-to-remove-an-item-by-selecting-0-quantity",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify that the user should be able to remove an item by selecting 0 quantity",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "the user is on the home page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user accepts the cookies",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "tab",
+                      "module"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "For Babys",
+                      "Clutching toys"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user navigates to the page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user add a product \"306203\" to the cart",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the user clicks chart icon at the top of the right corner",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the user change quantity of product with \"0\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "verify that item has been removed and the system displayed \"Product has been removed from your cart.\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "remove-a-product-from-the-cart;verify-that-the-user-should-be-able-to-add-a-product-\"306660\"-to-the-cart",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Verify that the user should be able to add a product \"306660\" to the cart",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "the user is on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 3415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "the user accepts the cookies",
+            "result": {
+              "status": "passed",
+              "duration": 4086000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "tab",
+                      "module"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "For Babys",
+                      "Clutching toys"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 33,
+            "name": "the user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 3022000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "the user add a product \"306660\" to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 4220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "the user clicks chart icon at the top of the right corner",
+            "result": {
+              "status": "passed",
+              "duration": 2660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "verify that the user can see the added product \"306660\" in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "remove-a-product-from-the-cart;verify-that-the-user-should-be-able-to-add-a-product-\"306690\"-to-the-cart",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Verify that the user should be able to add a product \"306690\" to the cart",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "the user is on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 2166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "the user accepts the cookies",
+            "result": {
+              "status": "passed",
+              "duration": 1543000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "tab",
+                      "module"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "For Babys",
+                      "Clutching toys"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 33,
+            "name": "the user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 4226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "the user add a product \"306690\" to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 4576000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "the user clicks chart icon at the top of the right corner",
+            "result": {
+              "status": "passed",
+              "duration": 2571000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "verify that the user can see the added product \"306690\" in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "remove-a-product-from-the-cart;verify-that-the-user-should-be-able-to-add-a-product-\"300426\"-to-the-cart",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Verify that the user should be able to add a product \"300426\" to the cart",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "the user is on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 2316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "the user accepts the cookies",
+            "result": {
+              "status": "passed",
+              "duration": 1529000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "tab",
+                      "module"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "For Babys",
+                      "Clutching toys"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 33,
+            "name": "the user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 2257000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "the user add a product \"300426\" to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 4777000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "the user clicks chart icon at the top of the right corner",
+            "result": {
+              "status": "passed",
+              "duration": 2458000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "verify that the user can see the added product \"300426\" in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
